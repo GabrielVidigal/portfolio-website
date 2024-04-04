@@ -20,8 +20,8 @@ const projectsData = [
     description: "Clone da pagina inicial da netflix com react e consumindo API de filmes",
     image: "/images/projects/netflix.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/GabrielVidigal/sistema-de-chamados-reactJS",
-    previewUrl: "https://sistemachamadosreact.netlify.app/",
+    gitUrl: "https://github.com/GabrielVidigal/netflix-clone",
+    previewUrl: "/",
   },
   {
     id: 3,
@@ -29,8 +29,8 @@ const projectsData = [
     description: "Aplicação de sistema de chamados utilizando react e firebase ",
     image: "/images/projects/chamados2.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/GabrielVidigal/netflix-clone",
-    previewUrl: "/",
+    gitUrl: "https://github.com/GabrielVidigal/sistema-de-chamados-reactJS",
+    previewUrl: "https://sistemachamadosreact.netlify.app/",
   },
   {
     id: 3,
