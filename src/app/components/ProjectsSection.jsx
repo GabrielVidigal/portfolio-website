@@ -7,11 +7,11 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website com React",
-    description: "Projeto do meu portfolio website",
-    image: "/images/projects/1.png",
+    title: "React Portfolio Website com React/nextJs",
+    description: "Projeto do meu portfolio website para me aprensentar e aprentar meus projetos feito em next.js ",
+    image: "/images/projects/website-portfolio.PNG",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/GabrielVidigal/meu-site-portfolio",
+    gitUrl: "https://github.com/GabrielVidigal/portfolio-website",
     previewUrl: "/",
   },
   {
@@ -21,10 +21,19 @@ const projectsData = [
     image: "/images/projects/netflix.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/GabrielVidigal/netflix-clone",
-    previewUrl: "/",
+    previewUrl: "https://netflix-clone-tau-flame.vercel.app/",
   },
   {
     id: 3,
+    title: "Website faculdade com react",
+    description: "Este projeto é um website responsivo desenvolvido em React para uma faculdade fictícia, incorpora hooks como useState e useRef alem de envio de formulários para email",
+    image: "/images/projects/website-college.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/GabrielVidigal/website-college",
+    previewUrl: "https://website-college-two.vercel.app/",
+  },
+  {
+    id: 4,
     title: "Sistema de chamados com React e Firebase",
     description: "Aplicação de sistema de chamados utilizando react e firebase ",
     image: "/images/projects/chamados2.png",
@@ -33,7 +42,7 @@ const projectsData = [
     previewUrl: "https://sistemachamadosreact.netlify.app/",
   },
   {
-    id: 3,
+    id: 5,
     title: "website to-do-list com react",
     description: "Aplicação de uma to-do-list com react ",
     image: "/images/projects/tarefas2.png",
@@ -96,7 +105,7 @@ const ProjectsSection = () => {
               key={project.id}
               title={project.title}
               description={project.description}
-              imgUrl={project.image}
+              imgUrl={project.image} 
               gitUrl={project.gitUrl}
               previewUrl={project.previewUrl}
             />
